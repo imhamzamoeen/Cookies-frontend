@@ -1,15 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <cookie-check></cookie-check>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import cookieCheck from './components/cookieCheck.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    cookieCheck,
   }
 }
 </script>
